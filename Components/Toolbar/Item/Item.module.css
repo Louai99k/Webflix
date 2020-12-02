@@ -1,0 +1,23 @@
+.Item {
+  margin: 0px 10px;
+  border-bottom: 4px solid blue;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a.active {
+  background-color: salmon;
+}
+
+.Item:hover {
+  background-color: salmon;
+  transition: all 0.2s linear;
+}

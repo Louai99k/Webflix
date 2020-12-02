@@ -1,0 +1,31 @@
+.Slider {
+  height: 24.75%;
+  background-color: #ccc;
+  width: 100%;
+  margin: 100px 0 auto;
+  position: relative;
+}
+
+.cont {
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  overflow-y: hidden;
+  height: 100%;
+}
+
+.Slider button {
+  z-index: 100;
+  position: absolute;
+  border: hidden;
+  box-sizing: border-box;
+  padding: 15px;
+  background-color: black;
+  color: white;
+  top: 50%;
+}
+
+.Slider button:hover {
+  opacity: 0.4;
+  transition: opacity 0.2s linear;
+}
